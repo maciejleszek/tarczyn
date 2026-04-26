@@ -1,0 +1,802 @@
+[
+  {
+    "id": 1,
+    "name": "Biskupin",
+    "description": "Najsłynniejszy w Polsce rezerwat archeologiczny.",
+    "lat": 52.7879,
+    "lng": 17.7441,
+    "is_visited": false
+  },
+  {
+    "id": 2,
+    "name": "Kopalnia Soli w Wieliczce",
+    "description": "Podziemne miasto wpisane na listę UNESCO.",
+    "lat": 49.9839,
+    "lng": 20.0537,
+    "is_visited": true
+  },
+  {
+    "id": 3,
+    "name": "Zamek w Malborku",
+    "description": "Największa gotycka twierdza w Europie.",
+    "lat": 54.0396,
+    "lng": 19.0284,
+    "is_visited": true
+  },
+  {
+    "id": 4,
+    "name": "Morskie Oko",
+    "description": "Największe i najbardziej znane jezioro tatrzańskie.",
+    "lat": 49.1975,
+    "lng": 20.0711,
+    "is_visited": true
+  },
+  {
+    "id": 5,
+    "name": "Ruchome Wydmy w Łebie",
+    "description": "Unikatowe zjawisko w Słowińskim Parku Narodowym.",
+    "lat": 54.7461,
+    "lng": 17.5147,
+    "is_visited": true
+  },
+  {
+    "id": 6,
+    "name": "Pustynia Błędowska",
+    "description": "Polska Sahara - największy obszar lotnych piasków.",
+    "lat": 50.34,
+    "lng": 19.52,
+    "is_visited": false
+  },
+  {
+    "id": 7,
+    "name": "Zamek Książ",
+    "description": "Trzeci co do wielkości zamek w Polsce, pełen tajemnic.",
+    "lat": 50.8423,
+    "lng": 16.2921,
+    "is_visited": false
+  },
+  {
+    "id": 8,
+    "name": "Puszcza Białowieska",
+    "description": "Ostatni pierwotny las nizinny Europy, dom żubra.",
+    "lat": 52.7011,
+    "lng": 23.8461,
+    "is_visited": false
+  },
+  {
+    "id": 9,
+    "name": "Góra św. Anny",
+    "description": "Wygasły wulkan i ważne miejsce pielgrzymkowe.",
+    "lat": 50.4558,
+    "lng": 18.1581,
+    "is_visited": false
+  },
+  {
+    "id": 10,
+    "name": "Kanał Elbląski",
+    "description": "Statki 'pływające po trawie' dzięki systemowi pochylni.",
+    "lat": 54.1256,
+    "lng": 19.4628,
+    "is_visited": false
+  },
+  {
+    "id": 11,
+    "name": "Szczeliniec Wielki",
+    "description": "Labirynt skalny w Górach Stołowych.",
+    "lat": 50.4858,
+    "lng": 16.3392,
+    "is_visited": false
+  },
+  {
+    "id": 12,
+    "name": "Trzęsacz",
+    "description": "Słynne ruiny kościoła, który zabrało morze.",
+    "lat": 54.0778,
+    "lng": 14.9914,
+    "is_visited": false
+  },
+  {
+    "id": 13,
+    "name": "Kazimierz Dolny",
+    "description": "Perła renesansu nad brzegiem Wisły.",
+    "lat": 51.3216,
+    "lng": 21.9472,
+    "is_visited": true
+  },
+  {
+    "id": 14,
+    "name": "Zamość",
+    "description": "Idealne miasto renesansowe, Padwa Północy.",
+    "lat": 50.7208,
+    "lng": 23.2531,
+    "is_visited": false
+  },
+  {
+    "id": 15,
+    "name": "Krutynia",
+    "description": "Najpiękniejszy szlak kajakowy na Mazurach.",
+    "lat": 53.6841,
+    "lng": 21.4367,
+    "is_visited": false
+  },
+  {
+    "id": 16,
+    "name": "Śnieżka",
+    "description": "Królowa Karkonoszy z kosmicznym obserwatorium.",
+    "lat": 50.736,
+    "lng": 15.74,
+    "is_visited": true
+  },
+  {
+    "id": 17,
+    "name": "Zamek w Pieskowej Skale",
+    "description": "Malowniczy zamek na Szlaku Orlich Gniazd.",
+    "lat": 50.2441,
+    "lng": 19.7803,
+    "is_visited": false
+  },
+  {
+    "id": 18,
+    "name": "Błękitne Źródła",
+    "description": "Wywierzyska krasowe o niezwykłym kolorze wody.",
+    "lat": 51.5122,
+    "lng": 20.0319,
+    "is_visited": false
+  },
+  {
+    "id": 19,
+    "name": "Hel",
+    "description": "Miejscowość na samym cyplu mierzei.",
+    "lat": 54.6083,
+    "lng": 18.8017,
+    "is_visited": true
+  },
+  {
+    "id": 20,
+    "name": "Łuk Mużakowa",
+    "description": "Kolorowe jeziorka po kopalniach węgla brunatnego.",
+    "lat": 51.5542,
+    "lng": 14.7186,
+    "is_visited": false
+  },
+  {
+    "id": 21,
+    "name": "Kopalnia Srebra w Tarnowskich Górach",
+    "description": "Zabytek techniki wpisany na listę UNESCO.",
+    "lat": 50.4253,
+    "lng": 18.8497,
+    "is_visited": false
+  },
+  {
+    "id": 22,
+    "name": "Sandomierz",
+    "description": "Miasto na siedmiu wzgórzach, słynie z wąwozów.",
+    "lat": 50.6822,
+    "lng": 21.7489,
+    "is_visited": false
+  },
+  {
+    "id": 23,
+    "name": "Jaskinia Niedźwiedzia",
+    "description": "Najpiękniejsza jaskinia w Polsce, Kletno.",
+    "lat": 50.2336,
+    "lng": 16.8428,
+    "is_visited": false
+  },
+  {
+    "id": 24,
+    "name": "Tykocin",
+    "description": "Miasteczko z barokową synagogą i zamkiem.",
+    "lat": 53.2089,
+    "lng": 22.7744,
+    "is_visited": false
+  },
+  {
+    "id": 25,
+    "name": "Góry Pieprzowe",
+    "description": "Najstarsze góry w Polsce pod Sandomierzem.",
+    "lat": 50.6853,
+    "lng": 21.7858,
+    "is_visited": false
+  },
+  {
+    "id": 26,
+    "name": "Krzywy Las",
+    "description": "Tajemnicze, wygięte sosny pod Gryfinem.",
+    "lat": 53.2139,
+    "lng": 14.4752,
+    "is_visited": false
+  },
+  {
+    "id": 27,
+    "name": "Kaplica Czaszek",
+    "description": "Niezwykłe miejsce w Kudowie-Zdroju.",
+    "lat": 50.4516,
+    "lng": 16.2424,
+    "is_visited": false
+  },
+  {
+    "id": 28,
+    "name": "Zamek Ogrodzieniec",
+    "description": "Największe ruiny zamkowe na Wyżynie Krakowsko-Częstochowskiej.",
+    "lat": 50.4533,
+    "lng": 19.5525,
+    "is_visited": false
+  },
+  {
+    "id": 29,
+    "name": "Świątynia Wang",
+    "description": "Drewniany kościół przywieziony z Norwegii do Karpacza.",
+    "lat": 50.7774,
+    "lng": 15.7231,
+    "is_visited": false
+  },
+  {
+    "id": 30,
+    "name": "Wiadukty w Stańczykach",
+    "description": "Akwedukty Puszczy Rominckiej.",
+    "lat": 54.2986,
+    "lng": 22.6561,
+    "is_visited": false
+  },
+  {
+    "id": 31,
+    "name": "Piramida w Rapie",
+    "description": "Grobowiec rodu von Fahrenheid na Mazurach.",
+    "lat": 54.3089,
+    "lng": 21.9866,
+    "is_visited": false
+  },
+  {
+    "id": 32,
+    "name": "Dąb Bartek",
+    "description": "Jeden z najstarszych dębów w Polsce.",
+    "lat": 50.9883,
+    "lng": 20.6508,
+    "is_visited": false
+  },
+  {
+    "id": 33,
+    "name": "Zalipie",
+    "description": "Malowana wieś, gdzie domy zdobione są kwiatami.",
+    "lat": 50.2322,
+    "lng": 20.8617,
+    "is_visited": false
+  },
+  {
+    "id": 34,
+    "name": "Rezydencja w Łańcucie",
+    "description": "Jeden z najpiękniejszych zamków magnackich.",
+    "lat": 50.0678,
+    "lng": 22.2336,
+    "is_visited": false
+  },
+  {
+    "id": 35,
+    "name": "Zamek Czocha",
+    "description": "Tajemnicza twierdza na Dolnym Śląsku.",
+    "lat": 51.0303,
+    "lng": 15.3039,
+    "is_visited": false
+  },
+  {
+    "id": 36,
+    "name": "Radiostacja Gliwicka",
+    "description": "Najwyższa drewniana konstrukcja w Europie.",
+    "lat": 50.3133,
+    "lng": 18.6886,
+    "is_visited": false
+  },
+  {
+    "id": 37,
+    "name": "Kopalnia Bochnia",
+    "description": "Najstarsza kopalnia soli w Polsce.",
+    "lat": 49.9691,
+    "lng": 20.4267,
+    "is_visited": false
+  },
+  {
+    "id": 38,
+    "name": "Chełmno",
+    "description": "Miasto zakochanych z relikwiami św. Walentego.",
+    "lat": 53.3486,
+    "lng": 18.4239,
+    "is_visited": false
+  },
+  {
+    "id": 39,
+    "name": "Lanckorona",
+    "description": "Miasteczko aniołów i drewnianej zabudowy.",
+    "lat": 49.8455,
+    "lng": 19.7125,
+    "is_visited": false
+  },
+  {
+    "id": 40,
+    "name": "Kruszyniany",
+    "description": "Centrum polskiego tatarstwa z zabytkowym meczetem.",
+    "lat": 53.1775,
+    "lng": 23.8122,
+    "is_visited": false
+  },
+  {
+    "id": 41,
+    "name": "Jaskinia Raj",
+    "description": "Najpiękniejsza szata naciekowa w Polsce.",
+    "lat": 50.8222,
+    "lng": 20.5039,
+    "is_visited": false
+  },
+  {
+    "id": 42,
+    "name": "Zamek w Niedzicy",
+    "description": "Twierdza nad Jeziorem Czorsztyńskim.",
+    "lat": 49.4224,
+    "lng": 20.3186,
+    "is_visited": false
+  },
+  {
+    "id": 43,
+    "name": "Spływ Dunajcem",
+    "description": "Tratwy płynące przez malowniczy przełom rzeki.",
+    "lat": 49.4072,
+    "lng": 20.3667,
+    "is_visited": false
+  },
+  {
+    "id": 44,
+    "name": "Licheń Stary",
+    "description": "Jedna z największych bazylik na świecie.",
+    "lat": 52.3228,
+    "lng": 18.3561,
+    "is_visited": false
+  },
+  {
+    "id": 45,
+    "name": "Klasztor na Jasnej Górze",
+    "description": "Duchowa stolica Polski w Częstochowie.",
+    "lat": 50.8125,
+    "lng": 19.0972,
+    "is_visited": false
+  },
+  {
+    "id": 46,
+    "name": "Ostrów Lednicki",
+    "description": "Miejsce chrztu Polski.",
+    "lat": 52.5264,
+    "lng": 17.3778,
+    "is_visited": false
+  },
+  {
+    "id": 47,
+    "name": "Krzeszów",
+    "description": "Europejska Perła Baroku - opactwo cystersów.",
+    "lat": 50.7328,
+    "lng": 16.0653,
+    "is_visited": false
+  },
+  {
+    "id": 48,
+    "name": "Zamek w Mosznej",
+    "description": "Pałac z 99 wieżami, jak z bajek Disneya.",
+    "lat": 50.4442,
+    "lng": 17.7681,
+    "is_visited": false
+  },
+  {
+    "id": 49,
+    "name": "Ujście Warty",
+    "description": "Ptasi raj w Parku Narodowym.",
+    "lat": 52.59,
+    "lng": 14.65,
+    "is_visited": false
+  },
+  {
+    "id": 50,
+    "name": "Sztolnia Czarnego Pstrąga",
+    "description": "Podziemny przepływ łodziami w Tarnowskich Górach.",
+    "lat": 50.43,
+    "lng": 18.81,
+    "is_visited": false
+  },
+  {
+    "id": 51,
+    "name": "Frombork",
+    "description": "Miasto Kopernika nad Zalewem Wiślanym.",
+    "lat": 54.3567,
+    "lng": 19.6814,
+    "is_visited": false
+  },
+  {
+    "id": 52,
+    "name": "Święty Krzyż",
+    "description": "Najstarsze polskie sanktuarium w Górach Świętokrzyskich.",
+    "lat": 50.8597,
+    "lng": 21.0506,
+    "is_visited": false
+  },
+  {
+    "id": 53,
+    "name": "Błękitne Jeziorka",
+    "description": "Kolorowe wyrobiska pokopalniane w Rudawach Janowickich.",
+    "lat": 50.8306,
+    "lng": 15.975,
+    "is_visited": false
+  },
+  {
+    "id": 54,
+    "name": "Maczuga Herkulesa",
+    "description": "Charakterystyczna skała w Ojcowskim Parku Narodowym.",
+    "lat": 50.2428,
+    "lng": 19.7828,
+    "is_visited": false
+  },
+  {
+    "id": 55,
+    "name": "Zalew Soliński",
+    "description": "Bieszczadzkie morze z największą zaporą w Polsce.",
+    "lat": 49.3944,
+    "lng": 22.4519,
+    "is_visited": false
+  },
+  {
+    "id": 56,
+    "name": "Kętrzyn - Wilczy Szaniec",
+    "description": "Kwatera główna Hitlera na Mazurach.",
+    "lat": 54.0803,
+    "lng": 21.4939,
+    "is_visited": false
+  },
+  {
+    "id": 57,
+    "name": "Święta Lipka",
+    "description": "Barokowe sanktuarium maryjne z ruchomymi organami.",
+    "lat": 54.0253,
+    "lng": 21.2181,
+    "is_visited": false
+  },
+  {
+    "id": 58,
+    "name": "Arkadia",
+    "description": "Romantyczny ogród heleny Radziwiłłowej.",
+    "lat": 52.0728,
+    "lng": 20.0078,
+    "is_visited": false
+  },
+  {
+    "id": 59,
+    "name": "Nieborów",
+    "description": "Barokowy pałac Radziwiłłów z pięknym ogrodem.",
+    "lat": 52.0669,
+    "lng": 20.07,
+    "is_visited": false
+  },
+  {
+    "id": 60,
+    "name": "Zamek w Lidzbarku Warmińskim",
+    "description": "Zamek Biskupów Warmińskich.",
+    "lat": 54.1264,
+    "lng": 20.5817,
+    "is_visited": false
+  },
+  {
+    "id": 61,
+    "name": "Góry Stołowe - Błędne Skały",
+    "description": "Skalne miasto i labirynt szczelin.",
+    "lat": 50.4517,
+    "lng": 16.2847,
+    "is_visited": false
+  },
+  {
+    "id": 62,
+    "name": "Paczków",
+    "description": "Polskie Carcassonne - miasto z pełnymi murami obronnymi.",
+    "lat": 50.4578,
+    "lng": 17.0028,
+    "is_visited": false
+  },
+  {
+    "id": 63,
+    "name": "Góra Grabarka",
+    "description": "Święta Góra Krzyży, serce polskiego prawosławia.",
+    "lat": 52.4181,
+    "lng": 23.0019,
+    "is_visited": false
+  },
+  {
+    "id": 64,
+    "name": "Dolina Pięciu Stawów",
+    "description": "Jedna z najpiękniejszych dolin wysokogórskich.",
+    "lat": 49.2131,
+    "lng": 20.0489,
+    "is_visited": false
+  },
+  {
+    "id": 65,
+    "name": "Trzy Korony",
+    "description": "Najsłynniejszy szczyt w Pieninach.",
+    "lat": 49.4136,
+    "lng": 20.4131,
+    "is_visited": false
+  },
+  {
+    "id": 66,
+    "name": "Zamek Krzyżtopór",
+    "description": "Monumentalna ruina pałacu w Ujeździe.",
+    "lat": 50.7133,
+    "lng": 21.3117,
+    "is_visited": false
+  },
+  {
+    "id": 67,
+    "name": "Pustelnia Złotego Lasu",
+    "description": "Klasztor kamedułów w Rytwianach.",
+    "lat": 50.5283,
+    "lng": 21.1856,
+    "is_visited": false
+  },
+  {
+    "id": 68,
+    "name": "Stocznia Gdańska",
+    "description": "Miejsce narodzin Solidarności.",
+    "lat": 54.3606,
+    "lng": 18.6483,
+    "is_visited": false
+  },
+  {
+    "id": 69,
+    "name": "Gierłoż",
+    "description": "Miasteczko bunkrów w sercu Mazur.",
+    "lat": 54.08,
+    "lng": 21.49,
+    "is_visited": false
+  },
+  {
+    "id": 70,
+    "name": "Supraśl",
+    "description": "Siedziba zabytkowego monasteru i Muzeum Ikon.",
+    "lat": 53.2111,
+    "lng": 23.3353,
+    "is_visited": false
+  },
+  {
+    "id": 71,
+    "name": "Kwidzyn",
+    "description": "Zamek z największą wieżą sanitarną (gdaniskiem) w Europie.",
+    "lat": 53.735,
+    "lng": 18.9214,
+    "is_visited": false
+  },
+  {
+    "id": 72,
+    "name": "Gniew",
+    "description": "Potężny zamek krzyżacki, miejsce turniejów rycerskich.",
+    "lat": 53.8344,
+    "lng": 18.8258,
+    "is_visited": false
+  },
+  {
+    "id": 73,
+    "name": "Góra Witosza",
+    "description": "Punkt widokowy w Kotlinie Jeleniogórskiej z licznymi skałkami.",
+    "lat": 50.835,
+    "lng": 15.6883,
+    "is_visited": false
+  },
+  {
+    "id": 74,
+    "name": "Dolina Chochołowska",
+    "description": "Słynie z dywanów krokusów na wiosnę.",
+    "lat": 49.2314,
+    "lng": 19.7892,
+    "is_visited": false
+  },
+  {
+    "id": 75,
+    "name": "Tarnica",
+    "description": "Najwyższy szczyt polskich Bieszczadów.",
+    "lat": 49.0747,
+    "lng": 22.7267,
+    "is_visited": false
+  },
+  {
+    "id": 76,
+    "name": "Hala Gąsienicowa",
+    "description": "Kultowe miejsce startu wielu szlaków tatrzańskich.",
+    "lat": 49.2242,
+    "lng": 20.0069,
+    "is_visited": false
+  },
+  {
+    "id": 77,
+    "name": "Zalew Zegrzyński",
+    "description": "Główne miejsce rekreacji wodnej koło Warszawy.",
+    "lat": 52.4489,
+    "lng": 21.0361,
+    "is_visited": true
+  },
+  {
+    "id": 78,
+    "name": "Biebrzański Park Narodowy",
+    "description": "Największe torfowiska w Polsce, królestwo łosia.",
+    "lat": 53.5167,
+    "lng": 22.6167,
+    "is_visited": false
+  },
+  {
+    "id": 79,
+    "name": "Wigierski Park Narodowy",
+    "description": "Jezioro Wigry z poklasztornym kompleksem kamedułów.",
+    "lat": 54.0667,
+    "lng": 23.0833,
+    "is_visited": false
+  },
+  {
+    "id": 80,
+    "name": "Roztoczański Park Narodowy",
+    "description": "Kraina konika polskiego i pięknych lasów jodłowych.",
+    "lat": 50.5833,
+    "lng": 22.95,
+    "is_visited": false
+  },
+  {
+    "id": 81,
+    "name": "Zamek w Baranowie Sandomierskim",
+    "description": "Mały Wawel - perła architektury manierystycznej.",
+    "lat": 50.4994,
+    "lng": 21.5339,
+    "is_visited": false
+  },
+  {
+    "id": 82,
+    "name": "Rydzyna",
+    "description": "Barokowe miasto-rezydencja z ogromnym zamkiem.",
+    "lat": 51.7872,
+    "lng": 16.6678,
+    "is_visited": false
+  },
+  {
+    "id": 83,
+    "name": "Kolegiata w Tumie",
+    "description": "Monumentalna romańska świątynia obronna.",
+    "lat": 52.0556,
+    "lng": 19.2314,
+    "is_visited": false
+  },
+  {
+    "id": 84,
+    "name": "Opactwo w Tyńcu",
+    "description": "Najstarszy istniejący klasztor benedyktynów w Polsce.",
+    "lat": 50.0197,
+    "lng": 19.8028,
+    "is_visited": false
+  },
+  {
+    "id": 85,
+    "name": "Zamek w Czorsztynie",
+    "description": "Ruiny warowni nad Dunajcem.",
+    "lat": 49.4356,
+    "lng": 20.3131,
+    "is_visited": false
+  },
+  {
+    "id": 86,
+    "name": "Babia Góra",
+    "description": "Diablak - najwyższy szczyt Beskidów Zachodnich.",
+    "lat": 49.5731,
+    "lng": 19.5294,
+    "is_visited": false
+  },
+  {
+    "id": 87,
+    "name": "Cieszyn - Rotunda św. Mikołaja",
+    "description": "Jeden z najstarszych zabytków polskiej architektury (na banknocie 20 zł).",
+    "lat": 49.7511,
+    "lng": 18.6264,
+    "is_visited": false
+  },
+  {
+    "id": 88,
+    "name": "Góra Kamieńsk",
+    "description": "Najwyższe wzniesienie w środkowej Polsce (sztuczna góra).",
+    "lat": 51.2225,
+    "lng": 19.4239,
+    "is_visited": false
+  },
+  {
+    "id": 89,
+    "name": "Półwysep Rewski",
+    "description": "Mierzeja w kształcie kosy wrzynająca się w morze.",
+    "lat": 54.6333,
+    "lng": 18.5167,
+    "is_visited": false
+  },
+  {
+    "id": 90,
+    "name": "Sandomierskie Wąwozy",
+    "description": "Wąwóz Królowej Jadwigi wyżłobiony w lessie.",
+    "lat": 50.6775,
+    "lng": 21.7417,
+    "is_visited": false
+  },
+  {
+    "id": 91,
+    "name": "Zamek w Janowcu",
+    "description": "Renesansowy zamek z widokiem na Wisłę.",
+    "lat": 51.3236,
+    "lng": 21.8906,
+    "is_visited": false
+  },
+  {
+    "id": 92,
+    "name": "Kopalnia Kredy w Mielniku",
+    "description": "Jedyna w Polsce czynna odkrywkowa kopalnia kredy.",
+    "lat": 52.3333,
+    "lng": 23.0667,
+    "is_visited": false
+  },
+  {
+    "id": 93,
+    "name": "Góra Zborów",
+    "description": "Najpiękniejszy punkt widokowy Jury Krakowsko-Częstochowskiej.",
+    "lat": 50.5936,
+    "lng": 19.5283,
+    "is_visited": false
+  },
+  {
+    "id": 94,
+    "name": "Zamek w Chęcinach",
+    "description": "Charakterystyczne trzy wieże nad miastem.",
+    "lat": 50.8031,
+    "lng": 20.4614,
+    "is_visited": false
+  },
+  {
+    "id": 95,
+    "name": "Muzeum Budownictwa Ludowego w Sanoku",
+    "description": "Największy skansen w Polsce.",
+    "lat": 49.5694,
+    "lng": 22.2106,
+    "is_visited": false
+  },
+  {
+    "id": 96,
+    "name": "Bohoniki",
+    "description": "Muzułmańska gmina wyznaniowa z zabytkowym meczetem.",
+    "lat": 53.3911,
+    "lng": 23.6017,
+    "is_visited": false
+  },
+  {
+    "id": 97,
+    "name": "Żyrardów",
+    "description": "Jedyne w Europie zachowane w całości miasto fabryczne z XIX w.",
+    "lat": 52.05,
+    "lng": 20.4333,
+    "is_visited": false
+  },
+  {
+    "id": 98,
+    "name": "Kopalnia Chełm",
+    "description": "Unikatowe podziemia kredowe pod miastem.",
+    "lat": 51.1333,
+    "lng": 23.4667,
+    "is_visited": false
+  },
+  {
+    "id": 99,
+    "name": "Wielka Sowa",
+    "description": "Najwyższy szczyt Gór Sowich z kamienną wieżą widokową.",
+    "lat": 50.6803,
+    "lng": 16.4853,
+    "is_visited": false
+  },
+  {
+    "id": 100,
+    "name": "Góra Żar",
+    "description": "Miejsce, gdzie woda 'płynie pod górę' i mekka szybowników.",
+    "lat": 49.7833,
+    "lng": 19.225,
+    "is_visited": false
+  }
+]

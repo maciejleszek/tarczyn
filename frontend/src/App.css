@@ -1,0 +1,117 @@
+:root {
+  --primary: #1e4d2b; /* Tarczyn Green */
+  --accent: #e31e24;  /* Tarczyn Red */
+  --bg: #f8f9fa;
+  --glass: rgba(255, 255, 255, 0.9);
+}
+
+body, html, #root { height: 100%; margin: 0; overflow: hidden; }
+
+.dashboard {
+  display: flex;
+  height: 100vh;
+  background: var(--bg);
+}
+
+.sidebar {
+  width: 380px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 4px 0 15px rgba(0,0,0,0.05);
+  z-index: 1000;
+  padding: 20px;
+}
+
+.logo { width: 120px; margin-bottom: 10px; }
+
+.stats-card {
+  background: var(--primary);
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.progress-bar-bg {
+  height: 8px;
+  background: rgba(255,255,255,0.2);
+  border-radius: 4px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: #76ff03;
+  transition: width 0.8s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  background: #eee;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.search-box input {
+  border: none;
+  background: transparent;
+  margin-left: 10px;
+  outline: none;
+  width: 100%;
+}
+
+.place-list {
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 5px;
+}
+
+.place-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border-radius: 12px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+  border: 1px solid transparent;
+}
+
+.place-item:hover {
+  background: #f0f0f0;
+  transform: translateY(-2px);
+}
+
+.place-item.visited {
+  background: #f1f8f1;
+  border-color: #c8e6c9;
+}
+
+.place-text h4 { margin: 0; font-size: 14px; }
+.place-text p { margin: 4px 0 0; font-size: 11px; color: #666; }
+
+.map-container { flex: 1; position: relative; }
+
+.leaflet-container { height: 100%; width: 100%; }
+
+/* Styl dymka Popup */
+.custom-popup .leaflet-popup-content-wrapper {
+  border-radius: 12px;
+  padding: 5px;
+}
+
+.btn-toggle {
+  background: var(--primary);
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
