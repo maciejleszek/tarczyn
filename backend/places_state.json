@@ -109,7 +109,7 @@
     "description": "Idealne miasto renesansowe, Padwa Północy.",
     "lat": 50.7208,
     "lng": 23.2531,
-    "is_visited": false
+    "is_visited": true
   },
   {
     "id": 15,
@@ -357,7 +357,7 @@
     "description": "Duchowa stolica Polski w Częstochowie.",
     "lat": 50.8125,
     "lng": 19.0972,
-    "is_visited": false
+    "is_visited": true
   },
   {
     "id": 46,
@@ -437,7 +437,7 @@
     "description": "Bieszczadzkie morze z największą zaporą w Polsce.",
     "lat": 49.3944,
     "lng": 22.4519,
-    "is_visited": false
+    "is_visited": true
   },
   {
     "id": 56,
@@ -445,7 +445,7 @@
     "description": "Kwatera główna Hitlera na Mazurach.",
     "lat": 54.0803,
     "lng": 21.4939,
-    "is_visited": false
+    "is_visited": true
   },
   {
     "id": 57,
@@ -517,7 +517,7 @@
     "description": "Najsłynniejszy szczyt w Pieninach.",
     "lat": 49.4136,
     "lng": 20.4131,
-    "is_visited": false
+    "is_visited": true
   },
   {
     "id": 66,
@@ -541,7 +541,7 @@
     "description": "Miejsce narodzin Solidarności.",
     "lat": 54.3606,
     "lng": 18.6483,
-    "is_visited": false
+    "is_visited": true
   },
   {
     "id": 69,
@@ -597,7 +597,7 @@
     "description": "Najwyższy szczyt polskich Bieszczadów.",
     "lat": 49.0747,
     "lng": 22.7267,
-    "is_visited": false
+    "is_visited": true
   },
   {
     "id": 76,
@@ -605,7 +605,7 @@
     "description": "Kultowe miejsce startu wielu szlaków tatrzańskich.",
     "lat": 49.2242,
     "lng": 20.0069,
-    "is_visited": false
+    "is_visited": true
   },
   {
     "id": 77,
@@ -677,7 +677,7 @@
     "description": "Ruiny warowni nad Dunajcem.",
     "lat": 49.4356,
     "lng": 20.3131,
-    "is_visited": false
+    "is_visited": true
   },
   {
     "id": 86,
@@ -685,7 +685,7 @@
     "description": "Diablak - najwyższy szczyt Beskidów Zachodnich.",
     "lat": 49.5731,
     "lng": 19.5294,
-    "is_visited": false
+    "is_visited": true
   },
   {
     "id": 87,

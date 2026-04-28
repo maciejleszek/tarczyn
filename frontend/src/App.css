@@ -115,3 +115,148 @@ body, html, #root { height: 100%; margin: 0; overflow: hidden; }
   width: 100%;
   margin-top: 10px;
 }
+
+.route-panel {
+  padding: 15px;
+  background: #f0f0f0;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.btn-route {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: var(--primary);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-route.active {
+  background: var(--accent);
+}
+
+.route-status {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #444;
+  text-align: center;
+}
+
+/* Ukrycie domyślnego panelu tekstowego instrukcji Leaflet Routing (opcjonalne) */
+.leaflet-routing-container {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+/* Panel Routingu w Sidebarze */
+.routing-panel {
+  margin-bottom: 15px;
+  padding: 10px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  border: 1px solid #eee;
+}
+
+.routing-panel.active {
+  border-color: #e31e24;
+  background: #fff5f5;
+}
+
+.btn-mode-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #1e4d2b;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.active .btn-mode-toggle {
+  background: #e31e24;
+}
+
+.route-hints {
+  margin-top: 8px;
+  font-size: 12px;
+  text-align: center;
+  color: #666;
+}
+
+/* Lista miejsc - poprawki */
+.place-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  background: white;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.place-content {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.coords-small {
+  font-size: 10px;
+  color: #999;
+  font-family: monospace;
+}
+
+.external-link-btn {
+  color: #4285F4;
+  padding: 5px;
+  border-radius: 5px;
+  transition: background 0.2s;
+}
+
+.external-link-btn:hover {
+  background: #e8f0fe;
+}
+
+/* Popup Stylizacja */
+.popup-coords-box {
+  background: #f0f0f0;
+  padding: 5px;
+  border-radius: 4px;
+  margin: 10px 0;
+  font-size: 11px;
+  text-align: center;
+}
+
+.popup-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.btn-gmaps {
+  text-decoration: none;
+  background: #4285F4;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
